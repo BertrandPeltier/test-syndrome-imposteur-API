@@ -1,0 +1,67 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+<svg width="229" height="195" view_box="0 0 229 195"
+xmlns="http://www.w3.org/2000/svg"
+xmlns:link="http://www.w3.org/1999/xlink">\n\n<desc>Généré par Mocodo 2.3.7 le Fri, 19 Feb 2021 15:12:59</desc>
+
+<rect id="frame" x="0" y="0" width="229" height="195" fill="#ffffbf" stroke="none" stroke-width="0"/>
+
+<!-- Association HAS -->
+<line x1="56" y1="43" x2="173" y2="43" stroke="#66bd63" stroke-width="2"/>
+<text x="108" y="60.0" fill="#d73027" font-family="Verdana" font-size="12">1,N</text>
+<line x1="173" y1="144" x2="173" y2="43" stroke="#66bd63" stroke-width="2"/>
+<text x="178.0" y="94" fill="#d73027" font-family="Verdana" font-size="12">1,N</text>
+<g id="association-HAS">
+	<path d="M 179 18 a 14 14 90 0 1 14 14 V 43 h -40 V 32 a 14 14 90 0 1 14 -14" fill="#a6d96a" stroke="#a6d96a" stroke-width="0"/>
+	<path d="M 193 43.0 v 11 a 14 14 90 0 1 -14 14 H 167 a 14 14 90 0 1 -14 -14 V 43.0 H 40" fill="#d9ef8b" stroke="#d9ef8b" stroke-width="0"/>
+	<rect x="153" y="18" width="40" height="50" fill="none" rx="14" stroke="#66bd63" stroke-width="2"/>
+	<line x1="153" y1="43" x2="193" y2="43" stroke="#66bd63" stroke-width="1"/>
+	<text x="160" y="35.7" fill="#000000" font-family="Verdana" font-size="12">HAS</text>
+</g>
+
+<!-- Entity answer -->
+<g id="entity-answer">
+	<g id="frame-answer">
+		<rect x="126" y="102" width="94" height="25" fill="#fdae61" stroke="#fdae61" stroke-width="0"/>
+		<rect x="126" y="127.0" width="94" height="59" fill="#fee08b" stroke="#fee08b" stroke-width="0"/>
+		<rect x="126" y="102" width="94" height="84" fill="none" stroke="#f46d43" stroke-width="2"/>
+		<line x1="126" y1="127" x2="220" y2="127" stroke="#f46d43" stroke-width="1"/>
+	</g>
+	<text x="151" y="119.7" fill="#000000" font-family="Verdana" font-size="12">answer</text>
+	<text x="131" y="144.8" fill="#000000" font-family="Verdana" font-size="12">id</text>
+	<line x1="131" y1="147" x2="143" y2="147" stroke="#000000" stroke-width="1"/>
+	<text x="131" y="161.8" fill="#000000" font-family="Verdana" font-size="12">answer_text</text>
+	<text x="131" y="178.8" fill="#000000" font-family="Verdana" font-size="12">answer_value</text>
+</g>
+
+<!-- Entity question -->
+<g id="entity-question">
+	<g id="frame-question">
+		<rect x="9" y="9" width="94" height="25" fill="#fdae61" stroke="#fdae61" stroke-width="0"/>
+		<rect x="9" y="34.0" width="94" height="43" fill="#fee08b" stroke="#fee08b" stroke-width="0"/>
+		<rect x="9" y="9" width="94" height="68" fill="none" stroke="#f46d43" stroke-width="2"/>
+		<line x1="9" y1="34" x2="103" y2="34" stroke="#f46d43" stroke-width="1"/>
+	</g>
+	<text x="30" y="26.7" fill="#000000" font-family="Verdana" font-size="12">question</text>
+	<text x="14" y="51.8" fill="#000000" font-family="Verdana" font-size="12">id</text>
+	<line x1="14" y1="54" x2="26" y2="54" stroke="#000000" stroke-width="1"/>
+	<text x="14" y="68.8" fill="#000000" font-family="Verdana" font-size="12">question_text</text>
+</g>
+
+<!-- Entity result -->
+<g id="entity-result">
+	<g id="frame-result">
+		<rect x="18" y="102" width="76" height="25" fill="#fdae61" stroke="#fdae61" stroke-width="0"/>
+		<rect x="18" y="127.0" width="76" height="59" fill="#fee08b" stroke="#fee08b" stroke-width="0"/>
+		<rect x="18" y="102" width="76" height="84" fill="none" stroke="#f46d43" stroke-width="2"/>
+		<line x1="18" y1="127" x2="94" y2="127" stroke="#f46d43" stroke-width="1"/>
+	</g>
+	<text x="38" y="119.7" fill="#000000" font-family="Verdana" font-size="12">result</text>
+	<text x="23" y="144.8" fill="#000000" font-family="Verdana" font-size="12">id</text>
+	<line x1="23" y1="147" x2="35" y2="147" stroke="#000000" stroke-width="1"/>
+	<text x="23" y="161.8" fill="#000000" font-family="Verdana" font-size="12">score</text>
+	<text x="23" y="178.8" fill="#000000" font-family="Verdana" font-size="12">created_at</text>
+</g>
+</svg>

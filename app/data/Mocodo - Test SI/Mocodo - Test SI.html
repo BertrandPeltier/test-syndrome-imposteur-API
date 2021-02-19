@@ -1,0 +1,41 @@
+<html>
+<head>
+<meta charset='utf-8'>
+<style>
+  #mld .relation { font-variant: small-caps; font-weight: bold }
+  #mld .primary { text-decoration: underline }
+  #mld .foreign { font-style: oblique }
+  #mld .normal { }
+</style>
+</head>
+<body>
+<div id='mld'>
+<div>
+  <span class='relation'>question</span> (
+    <span class='primary'>id</span>,
+    <span class='normal'>question_text</span>
+  )
+</div>
+<div>
+  <span class='relation'>HAS</span> (
+    <span class='foreign primary'>id</span>,
+    <span class='foreign primary'>id.1</span>
+  )
+</div>
+<div>
+  <span class='relation'>result</span> (
+    <span class='primary'>id</span>,
+    <span class='normal'>score</span>,
+    <span class='normal'>created_at</span>
+  )
+</div>
+<div>
+  <span class='relation'>answer</span> (
+    <span class='primary'>id</span>,
+    <span class='normal'>answer_text</span>,
+    <span class='normal'>answer_value</span>
+  )
+</div>
+</div>
+</body>
+</html>

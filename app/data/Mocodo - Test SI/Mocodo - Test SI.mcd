@@ -1,0 +1,5 @@
+question: id, question_text
+HAS, 1N question, 1N answer
+
+result: id, score, created_at
+answer: id, answer_text, answer_value
