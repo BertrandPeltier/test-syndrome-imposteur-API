@@ -21,7 +21,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
 // on utlise .none() pour dire qu'on attends pas de fichier, uniquement des inputs "classiques" !
-app.use( bodyParser.none() );
+app.use(bodyParser.none());
 
 // Sanitize req.body
 app.use(sanitizeBody);

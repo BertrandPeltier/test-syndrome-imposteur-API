@@ -1,0 +1,11 @@
+answer: _, answer_text, answer_value
+CONTAINS, 1N answer, 1N test
+interpretation: _, interpretation_text
+
+HAS, 1N question, 1N answer
+test: _, created_at
+BELONGS TO, 11 score, 1N interpretation
+
+question: _, question_text
+GETS, 1N score, 11 test
+score: _, score_value

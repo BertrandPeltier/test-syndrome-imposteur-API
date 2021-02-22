@@ -1,14 +1,13 @@
 const { DataTypes, Model } = require('sequelize');
 const sequelize = require('../sequelize');
 
-class Result extends Model {};
+class Test extends Model {};
 
-Result.init({
-    score: DataTypes.INTEGER,
+Test.init({
 }, {
     sequelize,
-    tableName: 'result',
+    tableName: 'test',
     timestamps: true
 });
 
-module.exports = Result;
+module.exports = Test;

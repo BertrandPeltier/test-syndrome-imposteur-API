@@ -9,7 +9,6 @@ Answer.init({
 }, {
     sequelize,
     tableName: 'answer',
-    timestamps: false
 });
 
 module.exports = Answer;
