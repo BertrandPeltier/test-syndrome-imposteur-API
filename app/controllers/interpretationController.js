@@ -13,6 +13,18 @@ const interpretationController = {
             res.status(500).json(err.toString());
         }
     },
+
+    getInterpretation: async (req, res) => {
+        try {
+            const interpretation = await Interpretation.findByPk(req.params.id, {
+                include: 'scores'
+            });
+            res.json(interpretation);
+        } catch (err) {
+            console.trace(err);
+            res.status(500).json(err.toString());
+        }
+    },
 };
 
 module.exports = interpretationController;
