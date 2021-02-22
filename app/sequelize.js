@@ -7,6 +7,7 @@ const sequelize = new Sequelize(process.env.DB_DATABASE, process.env.DB_USER, pr
     define: {
         timestamps: false,
         createdAt: 'created_at',
+        updatedAt: 'update_at',
     },
     
     logging: false

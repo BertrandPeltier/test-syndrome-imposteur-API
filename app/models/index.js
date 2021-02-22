@@ -17,7 +17,6 @@ Question.belongsToMany(Answer, {
     through: 'question_answer',
     foreignKey: 'question_id',
     otherKey: 'answer_id',
-    timestamps: false,
 });
 
 Answer.belongsToMany(Test, {
@@ -25,7 +24,6 @@ Answer.belongsToMany(Test, {
     through: 'test_answer',
     foreignKey: 'answer_id',
     otherKey: 'test_id',
-    timestamps: false,
 });
 
 Test.belongsToMany(Answer, {
@@ -33,7 +31,6 @@ Test.belongsToMany(Answer, {
     through: 'test_answer',
     foreignKey: 'test_id',
     otherKey: 'answer_id',
-    timestamps: false,
 });
 
 Test.belongsTo(Score, {

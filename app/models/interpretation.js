@@ -3,7 +3,7 @@ const sequelize = require('../sequelize');
 
 class Interpretation extends Model {};
 
-Question.init({
+Interpretation.init({
     Interpretation_text: DataTypes.TEXT,
 }, {
     sequelize,

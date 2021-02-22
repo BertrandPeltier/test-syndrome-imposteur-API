@@ -10,9 +10,11 @@ const bodyParser = multer();
 
 const app = express();
 
+/*
 app.use(cors({
     origin: "*"
 }));
+*/
 
 // Parser le content des requetes POST
 app.use(express.urlencoded({ extended: true }));
