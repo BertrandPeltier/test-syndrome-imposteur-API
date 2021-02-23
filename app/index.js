@@ -3,10 +3,9 @@ require('dotenv').config();
 const express = require('express');
 const multer = require('multer');
 const sanitizeBody = require('./middlewares/sanitizeBody');
+
 const router = require('./router');
-
 const bodyParser = multer();
-
 const app = express();
 
 
