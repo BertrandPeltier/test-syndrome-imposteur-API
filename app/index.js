@@ -1,7 +1,6 @@
 require('dotenv').config();
 
 const express = require('express');
-const cors = require('cors');
 const multer = require('multer');
 const sanitizeBody = require('./middlewares/sanitizeBody');
 const router = require('./router');
@@ -10,11 +9,6 @@ const bodyParser = multer();
 
 const app = express();
 
-/*
-app.use(cors({
-    origin: "*"
-}));
-*/
 
 // Parser le content des requetes POST
 app.use(express.urlencoded({ extended: true }));
