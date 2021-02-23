@@ -26,5 +26,5 @@ app.use(router);
 const port = process.env.PORT;
 
 app.listen(port, () => {
-    console.log(`Listening on ${process.env.BASE_URL}${port}`);
+    console.log(`Listening on port: ${port}`);
 });

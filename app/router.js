@@ -8,25 +8,26 @@ const testController = require('./controllers/testController');
 
 const router = express.Router();
 
+const base_url = process.env.BASE_URL;
 
-router.get('/', (req, res) => {
+router.get(`${base_url}`, (req, res) => {
     res.send('API test du syndrome de l\'imposteur');
 });
 
-router.get('/questions', questionController.getQuestions);
-router.get('/questions/:id', questionController.getQuestion);
+router.get(`${base_url}/questions`, questionController.getQuestions);
+router.get(`${base_url}/questions/:id`, questionController.getQuestion);
 
-router.get('/answers', answerController.getAnswers);
-router.get('/answers/:id', answerController.getAnswer);
+router.get(`${base_url}/answers`, answerController.getAnswers);
+router.get(`${base_url}/answers/:id`, answerController.getAnswer);
 
-router.get('/scores', scoreController.getScores);
-router.get('/scores/:id', scoreController.getScore);
+router.get(`${base_url}/scores`, scoreController.getScores);
+router.get(`${base_url}/scores/:id`, scoreController.getScore);
 
-router.get('/interpretations', interpretationController.getInterpretations);
-router.get('/interpretations/:id', interpretationController.getInterpretation);
+router.get(`${base_url}/interpretations`, interpretationController.getInterpretations);
+router.get(`${base_url}/interpretations/:id`, interpretationController.getInterpretation);
 
-router.get('/tests', testController.getTests);
-router.post('/tests', testController.recordTest);
-router.get('/tests/:id', testController.getTest);
+router.get(`${base_url}/tests`, testController.getTests);
+router.post(`${base_url}/tests`, testController.recordTest);
+router.get(`${base_url}/tests/:id`, testController.getTest);
 
 module.exports = router;
