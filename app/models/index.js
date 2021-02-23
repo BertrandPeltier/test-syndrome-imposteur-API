@@ -4,19 +4,14 @@ const Question = require('./question');
 const Score = require('./score');
 const Test = require('./test');
 
-Answer.belongsToMany(Question, {
-    as: 'questions',
-    through: 'question_answer',
-    foreignKey: 'answer_id',
-    otherKey: 'question_id',
-    timestamps: false,
+Answer.belongsTo(Question, {
+    as: 'question',
+    foreignKey: 'question_id'
 });
 
-Question.belongsToMany(Answer, {
+Question.hasMany(Answer, {
     as: 'answers',
-    through: 'question_answer',
-    foreignKey: 'question_id',
-    otherKey: 'answer_id',
+    foreignKey: 'question_id'
 });
 
 Answer.belongsToMany(Test, {

@@ -1,0 +1,128 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+<svg width="402" height="270" view_box="0 0 402 270"
+xmlns="http://www.w3.org/2000/svg"
+xmlns:link="http://www.w3.org/1999/xlink">\n\n<desc>Généré par Mocodo 2.3.7 le Tue, 23 Feb 2021 07:56:17</desc>
+
+<rect id="frame" x="0" y="0" width="402" height="270" fill="#ffffff" stroke="none" stroke-width="0"/>
+
+<!-- Association BELONGS_TO -->
+<line x1="56" y1="51" x2="185" y2="51" stroke="#d6604d" stroke-width="2"/>
+<text x="108" y="68.0" fill="#4d4d4d" font-family="Verdana" font-size="12">0,N</text>
+<line x1="185" y1="143" x2="185" y2="51" stroke="#d6604d" stroke-width="2"/>
+<text x="190.0" y="101" fill="#4d4d4d" font-family="Verdana" font-size="12">N,N</text>
+<g id="association-BELONGS_TO">
+	<path d="M 220 26 a 14 14 90 0 1 14 14 V 51 h -98 V 40 a 14 14 90 0 1 14 -14" fill="#f4a582" stroke="#f4a582" stroke-width="0"/>
+	<path d="M 234 51.0 v 11 a 14 14 90 0 1 -14 14 H 150 a 14 14 90 0 1 -14 -14 V 51.0 H 98" fill="#fddbc7" stroke="#fddbc7" stroke-width="0"/>
+	<rect x="136" y="26" width="98" height="50" fill="none" rx="14" stroke="#d6604d" stroke-width="2"/>
+	<line x1="136" y1="51" x2="234" y2="51" stroke="#d6604d" stroke-width="1"/>
+	<text x="143" y="43.7" fill="#000000" font-family="Verdana" font-size="12">BELONGS_TO</text>
+</g>
+
+<!-- Association HAS -->
+<line x1="56" y1="227" x2="56" y2="143" stroke="#d6604d" stroke-width="2"/>
+<text x="61.0" y="185" fill="#4d4d4d" font-family="Verdana" font-size="12">N,N</text>
+<line x1="56" y1="51" x2="56" y2="143" stroke="#d6604d" stroke-width="2"/>
+<text x="61.0" y="110" fill="#4d4d4d" font-family="Verdana" font-size="12">1,1</text>
+<g id="association-HAS">
+	<path d="M 62 118 a 14 14 90 0 1 14 14 V 143 h -40 V 132 a 14 14 90 0 1 14 -14" fill="#f4a582" stroke="#f4a582" stroke-width="0"/>
+	<path d="M 76 143.0 v 11 a 14 14 90 0 1 -14 14 H 50 a 14 14 90 0 1 -14 -14 V 143.0 H 40" fill="#fddbc7" stroke="#fddbc7" stroke-width="0"/>
+	<rect x="36" y="118" width="40" height="50" fill="none" rx="14" stroke="#d6604d" stroke-width="2"/>
+	<line x1="36" y1="143" x2="76" y2="143" stroke="#d6604d" stroke-width="1"/>
+	<text x="43" y="135.7" fill="#000000" font-family="Verdana" font-size="12">HAS</text>
+</g>
+
+<!-- Association GETS -->
+<line x1="330" y1="227" x2="185" y2="227" stroke="#d6604d" stroke-width="2"/>
+<text x="261" y="244.0" fill="#4d4d4d" font-family="Verdana" font-size="12">0,N</text>
+<line x1="185" y1="143" x2="185" y2="227" stroke="#d6604d" stroke-width="2"/>
+<text x="190.0" y="194" fill="#4d4d4d" font-family="Verdana" font-size="12">1,1</text>
+<g id="association-GETS">
+	<path d="M 195 202 a 14 14 90 0 1 14 14 V 227 h -48 V 216 a 14 14 90 0 1 14 -14" fill="#f4a582" stroke="#f4a582" stroke-width="0"/>
+	<path d="M 209 227.0 v 11 a 14 14 90 0 1 -14 14 H 175 a 14 14 90 0 1 -14 -14 V 227.0 H 48" fill="#fddbc7" stroke="#fddbc7" stroke-width="0"/>
+	<rect x="161" y="202" width="48" height="50" fill="none" rx="14" stroke="#d6604d" stroke-width="2"/>
+	<line x1="161" y1="227" x2="209" y2="227" stroke="#d6604d" stroke-width="1"/>
+	<text x="168" y="219.7" fill="#000000" font-family="Verdana" font-size="12">GETS</text>
+</g>
+
+<!-- Association MEANS -->
+<line x1="330" y1="227" x2="330" y2="143" stroke="#d6604d" stroke-width="2"/>
+<text x="335.0" y="185" fill="#4d4d4d" font-family="Verdana" font-size="12">1,1</text>
+<line x1="330" y1="51" x2="330" y2="143" stroke="#d6604d" stroke-width="2"/>
+<text x="335.0" y="102" fill="#4d4d4d" font-family="Verdana" font-size="12">1,N</text>
+<g id="association-MEANS">
+	<path d="M 345 118 a 14 14 90 0 1 14 14 V 143 h -58 V 132 a 14 14 90 0 1 14 -14" fill="#f4a582" stroke="#f4a582" stroke-width="0"/>
+	<path d="M 359 143.0 v 11 a 14 14 90 0 1 -14 14 H 315 a 14 14 90 0 1 -14 -14 V 143.0 H 58" fill="#fddbc7" stroke="#fddbc7" stroke-width="0"/>
+	<rect x="301" y="118" width="58" height="50" fill="none" rx="14" stroke="#d6604d" stroke-width="2"/>
+	<line x1="301" y1="143" x2="359" y2="143" stroke="#d6604d" stroke-width="1"/>
+	<text x="308" y="135.7" fill="#000000" font-family="Verdana" font-size="12">MEANS</text>
+</g>
+
+<!-- Entity answer -->
+<g id="entity-answer">
+	<g id="frame-answer">
+		<rect x="9" y="9" width="94" height="25" fill="#bababa" stroke="#bababa" stroke-width="0"/>
+		<rect x="9" y="34.0" width="94" height="59" fill="#e0e0e0" stroke="#e0e0e0" stroke-width="0"/>
+		<rect x="9" y="9" width="94" height="84" fill="none" stroke="#878787" stroke-width="2"/>
+		<line x1="9" y1="34" x2="103" y2="34" stroke="#878787" stroke-width="1"/>
+	</g>
+	<text x="34" y="26.7" fill="#000000" font-family="Verdana" font-size="12">answer</text>
+	<text x="14" y="51.8" fill="#000000" font-family="Verdana" font-size="12"></text>
+	<text x="14" y="68.8" fill="#000000" font-family="Verdana" font-size="12">answer_text</text>
+	<text x="14" y="85.8" fill="#000000" font-family="Verdana" font-size="12">answer_value</text>
+</g>
+
+<!-- Entity test -->
+<g id="entity-test">
+	<g id="frame-test">
+		<rect x="147" y="109" width="76" height="25" fill="#bababa" stroke="#bababa" stroke-width="0"/>
+		<rect x="147" y="134.0" width="76" height="43" fill="#e0e0e0" stroke="#e0e0e0" stroke-width="0"/>
+		<rect x="147" y="109" width="76" height="68" fill="none" stroke="#878787" stroke-width="2"/>
+		<line x1="147" y1="134" x2="223" y2="134" stroke="#878787" stroke-width="1"/>
+	</g>
+	<text x="173" y="126.7" fill="#000000" font-family="Verdana" font-size="12">test</text>
+	<text x="152" y="151.8" fill="#000000" font-family="Verdana" font-size="12"></text>
+	<text x="152" y="168.8" fill="#000000" font-family="Verdana" font-size="12">created_at</text>
+</g>
+
+<!-- Entity score -->
+<g id="entity-score">
+	<g id="frame-score">
+		<rect x="288" y="193" width="84" height="25" fill="#bababa" stroke="#bababa" stroke-width="0"/>
+		<rect x="288" y="218.0" width="84" height="43" fill="#e0e0e0" stroke="#e0e0e0" stroke-width="0"/>
+		<rect x="288" y="193" width="84" height="68" fill="none" stroke="#878787" stroke-width="2"/>
+		<line x1="288" y1="218" x2="372" y2="218" stroke="#878787" stroke-width="1"/>
+	</g>
+	<text x="313" y="210.7" fill="#000000" font-family="Verdana" font-size="12">score</text>
+	<text x="293" y="235.8" fill="#000000" font-family="Verdana" font-size="12"></text>
+	<text x="293" y="252.8" fill="#000000" font-family="Verdana" font-size="12">score_value</text>
+</g>
+
+<!-- Entity interpretation -->
+<g id="entity-interpretation">
+	<g id="frame-interpretation">
+		<rect x="267" y="17" width="126" height="25" fill="#bababa" stroke="#bababa" stroke-width="0"/>
+		<rect x="267" y="42.0" width="126" height="43" fill="#e0e0e0" stroke="#e0e0e0" stroke-width="0"/>
+		<rect x="267" y="17" width="126" height="68" fill="none" stroke="#878787" stroke-width="2"/>
+		<line x1="267" y1="42" x2="393" y2="42" stroke="#878787" stroke-width="1"/>
+	</g>
+	<text x="288" y="34.7" fill="#000000" font-family="Verdana" font-size="12">interpretation</text>
+	<text x="272" y="59.8" fill="#000000" font-family="Verdana" font-size="12"></text>
+	<text x="272" y="76.8" fill="#000000" font-family="Verdana" font-size="12">interpretation_text</text>
+</g>
+
+<!-- Entity question -->
+<g id="entity-question">
+	<g id="frame-question">
+		<rect x="9" y="193" width="94" height="25" fill="#bababa" stroke="#bababa" stroke-width="0"/>
+		<rect x="9" y="218.0" width="94" height="43" fill="#e0e0e0" stroke="#e0e0e0" stroke-width="0"/>
+		<rect x="9" y="193" width="94" height="68" fill="none" stroke="#878787" stroke-width="2"/>
+		<line x1="9" y1="218" x2="103" y2="218" stroke="#878787" stroke-width="1"/>
+	</g>
+	<text x="30" y="210.7" fill="#000000" font-family="Verdana" font-size="12">question</text>
+	<text x="14" y="235.8" fill="#000000" font-family="Verdana" font-size="12"></text>
+	<text x="14" y="252.8" fill="#000000" font-family="Verdana" font-size="12">question_text</text>
+</g>
+</svg>
