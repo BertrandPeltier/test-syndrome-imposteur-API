@@ -5,7 +5,7 @@ const answerController = {
     getAnswers: async (_, res) => {
         try {
             const answers = await Answer.findAll({
-                include: ['tests', 'questions']
+                include: ['tests', 'question']
             });
             res.json(answers);
         } catch (err) {
@@ -17,7 +17,7 @@ const answerController = {
     getAnswer: async (req, res) => {
         try {
             const answer = await Answer.findByPk(req.params.id, {
-                include: ['tests', 'questions']
+                include: ['tests', 'question']
             });
             res.json(answer);
         } catch (err) {

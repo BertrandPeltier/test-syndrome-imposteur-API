@@ -44,7 +44,7 @@ const testController = {
                 answerId = Number(req.body[selectedAnswer]);
 
                 const answer = await Answer.findByPk(answerId, {
-                    include: ['tests', 'questions']
+                    include: ['tests', 'question']
                 });
 
                 await newTest.addAnswer(answer);
@@ -58,7 +58,10 @@ const testController = {
             await newTest.save();
 
             const recordedTest = await Test.findByPk(newTest.id, {
-                include: ['answers', {
+                include: [{
+                    association : 'answers',
+                    include: 'question'
+                    }, {
                     association : 'score',
                     include: 'interpretation'}
                 ]
