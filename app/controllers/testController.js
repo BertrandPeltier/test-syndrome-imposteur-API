@@ -5,7 +5,10 @@ const testController = {
     getTests: async (_, res) => {
         try {
             const tests = await Test.findAll({
-                include: ['answers', {
+                include: [{
+                    association : 'answers',
+                    include: 'question'
+                    }, {
                     association : 'score',
                     include: 'interpretation'}
                 ]
@@ -20,7 +23,10 @@ const testController = {
     getTest: async (req, res) => {
         try {
             const test = await Test.findByPk(req.params.id, {
-                include: ['answers', {
+                include: [{
+                    association : 'answers',
+                    include: 'question'
+                    }, {
                     association : 'score',
                     include: 'interpretation'}
                 ]
